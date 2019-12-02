@@ -21,7 +21,7 @@ class Login extends Component {
                     <Button onPress={() => Actions.register()} title="Go to Register Screen" />
                 </View>
 
-                <Text style={styles.smallText}> Login Screen found in ./screens/Login/Login.js </Text>
+                <Text style={Styles.smallText}> Login Screen found in ./screens/Login/Login.js </Text>
             </View>
         );
     }
@@ -34,6 +34,6 @@ const styles = StyleSheet.create({
         fontSize: 35,
     },
     button: {
-        marginVertical: 25
+        marginVertical: 20
     }
 });
